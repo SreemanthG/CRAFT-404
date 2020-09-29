@@ -21,10 +21,43 @@ function render() {
 	requestAnimationFrame(render)
 	// var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
   if (!isScrolling) return
-    progressbar.value = (window.scrollY-1800 )/ (article.offsetHeight - window.innerHeight)*100
-    progressbar2.value=(window.scrollY-1800)/(article2.offsetHeight-window.innerHeight)*100 - 5
+  // console.log(window.innerWidth)
+  if(window.innerWidth<340){
+    progressbar.value = ((window.scrollY-1900 )/ (article.offsetHeight - window.innerHeight)*100)-20
+    progressbar2.value=((window.scrollY-2000)/(article2.offsetHeight-window.innerHeight)*100)-20 
     isScrolling = false
-    console.log(render.call)
+    // console.log(render.call)
+    
+  }
+ 
+  else if(window.innerWidth<400){
+    progressbar.value = ((window.scrollY-1950 )/ (article.offsetHeight - window.innerHeight)*100)-10
+    progressbar2.value=((window.scrollY-1950)/(article2.offsetHeight-window.innerHeight)*100)-20
+    isScrolling = false
+    // console.log(render.call)
+    
+  }
+  else if(window.innerWidth<450){
+    progressbar.value = ((window.scrollY-1900 )/ (article.offsetHeight - window.innerHeight)*100)-20
+    progressbar2.value=((window.scrollY-1900)/(article2.offsetHeight-window.innerHeight)*100)-25
+    isScrolling = false
+    // console.log(render.call)
+    
+  }
+  else if(window.innerWidth<810){
+    progressbar.value = ((window.scrollY-1800)/ (article.offsetHeight - window.innerHeight)*100)-70
+    progressbar2.value=((window.scrollY-1800)/(article2.offsetHeight-window.innerHeight)*100)-70
+    isScrolling = false
+    // console.log(render.call)
+    
+  }
+  else if(window.innerWidth<2570){
+    progressbar.value = ((window.scrollY-1800)/ (article.offsetHeight - window.innerHeight)*100)
+    progressbar2.value=((window.scrollY-1800)/(article2.offsetHeight-window.innerHeight)*100)
+    isScrolling = false
+    // console.log(render.call)
+    
+  }
   // }
 
 	

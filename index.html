@@ -77,16 +77,16 @@
   <div >
 
 
-      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="font-family: 'Work Sans', overflow: hidden; sans-serif;background: rgba(1,38,86,0);height: 56px;">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav"  style="font-family: 'Work Sans', overflow: hidden; sans-serif;background: rgba(1,38,86,0);height: 56px;">
             <div class="container"><img id="stc" src="public/img/STC%20Logo.png"><a class="navbar-brand" style=" font-size: 12px;font-family: 'Work Sans Thin', sans-serif;">X</a><img id="siam" src="public/img/SIAM%20Logo.png"><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="filter: hue-rotate(360deg);border-color: rgb(255,255,255);border-radius: 10px;margin-left: 22px;margin-right: -13px;"><i class="fa fa-bars" style="filter: invert(100%);"></i></button>
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"  style="filter: hue-rotate(360deg);border-color: rgb(255,255,255);border-radius: 10px;margin-left: 22px;margin-right: -13px;"><i class="fa fa-bars" style="filter: invert(100%);"></i></button>
                 <div
                     class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"  style="margin-top: -23px;"><a class="nav-link" id="about" href="#abt-head" style="margin-top: 23px;color: rgb(255,255,255);opacity: 0.43;">About</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: rgba(255,255,255,0.5);opacity: 1;">Timeline</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: rgba(255,255,255,0.5);;">Speakers</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: rgba(255,255,255,0.5);">FAQs</a></li>
+                        <li class="nav-item"  style="margin-top: -23px;"><a class="nav-link" id="about" href="#abt-head" style="margin-top: 23px;color: white;font-weight: 400;">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#t-body" style="color:white;opacity: 1;font-weight: 400;">Timeline</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#spk" style="color:white;font-weight: 400;;">Speakers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#c-faq" style="color: white;font-weight: 400;">FAQs</a></li>
                     </ul>
             </div><img id="gravitas" src="public/img/graVITas20Logo.png"></div>
         </nav>
@@ -110,7 +110,9 @@
       <img src="public/img/craftheadbox.svg" class="behind" id="abtbox" alt="">
 
       <p id="abt-head-text" style="color: white;">About Craft404</p>
-          </div><br>
+          </div>
+        
+          <br>
       <div id="abt-text" style="color: white;">
 
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
@@ -123,7 +125,7 @@
     <!-- TIMELINE STARTS -->
     <!-- public/svg/timeline/ -->
     <!-- heading and buttons for day 1 and day2 starts -->
-    <div class="timeline-body">
+    <div class="timeline-body" id="t-body">
 <!-- heading and buttons for day 1 and day2 ends -->
 <div class="container top day1">
   <div class="title text-center">
@@ -303,19 +305,19 @@
 >
   <div class="container">
     <div class="row" style="border-radius:24px ;">
-      <div class="col-md-4 text" style="text-align: left;margin-top: 50px;">
+      <div class="col-lg-4 col-md-6 col-sm-12 text" style="text-align: left;margin-top: 50px;">
         <h1 class="time-h1">7:45 P.M.</h1>
-        <p class="para"><b> Showdown404:</b> Competition winners Announcement</p>
+        <p class="para-t"><b> Showdown404:</b> Competition winners Announcement</p>
       </div>
-      <div class="col-md-4 text-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 text-center">
         <div class="white">
-          <p class="para"> Prizes worth</p>
+          <p class="para-time"> Prizes worth</p>
           <h1 class="time-h1">₹ 6000</h1>
-          <p class="para">to be won</p>
+          <p class="para-time">to be won</p>
         </div>
       </div>
       <div class="col-md-4 text-center trophy">
-        <img src="public/svg/timeline/trophy.svg"  alt="" class="time-img">
+        <img src="public/svg/timeline/trophy.svg"  alt="" class="trophy-img">
       </div>
     </div>
   </div>
@@ -330,7 +332,7 @@
     
    <!-- Sponsors -->
 
-   <div class="sponsbody mt-5 mb-5 pt-5">
+   <div class="sponsbody mt-5 mb-5 pt-5" id="spk">
     <div class="container">  
       <span class="AboutUsTitle"><div class="bluebox123"></div>Speaker</span>
 
@@ -398,7 +400,7 @@
     <br>
     <br>
     <br>
-    <span class=" AboutUsTitle atcraft404 ">
+    <span class=" AboutUsTitle atcraft404 " style="background: linear-gradient(to bottom, #012656 0%,#012656 40%,#012656 40%,#305bc9 40%,#305bc9 100%);">
       <!-- <div class="bluebox123"></div> -->
       At Craft404, you get to</span>
     <div class="row  mt-5 mb-5">
@@ -492,11 +494,11 @@
 </div>
 
 <!-- FAQ -->
-<section class="faq mt-5 mb-5 pt-5">
+<section class="faq mt-5 mb-5 pt-5" id="c-faq">
   <div class="faq-container">
       <div class="faq-head">
 
-        <span class="AboutUsTitle"><div class="bluebox123"></div>FAQ</span>
+        <span class="AboutUsTitle"><div class="bluebox123"></div>FAQs</span>
 
       </div>
 
