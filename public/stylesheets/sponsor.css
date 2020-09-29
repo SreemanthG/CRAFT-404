@@ -74,8 +74,10 @@ opacity: 1;
 /* .sponsimg{
 } */
 .sponsimg img{
-  border-radius: 50%;
-  width: 80px;
+  /* border-radius: 50%;
+  width: 80px; */
+  width: 200px;
+  margin: 20px auto;
 
 }
 .illus-center{
