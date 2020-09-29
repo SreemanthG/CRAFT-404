@@ -152,14 +152,15 @@ overflow-x: hidden;
 }
 #rsquare{
   width: 35%;  
-  margin-left: 91.5%;
+  margin-left: 89%;
+  
   margin-top: -153%;
   overflow-x: hidden;
 }
 #wave{
    width:16%;
     margin-bottom: -96.5%;
-    margin-left: 88%;
+    margin-left: 84%;
     transform: translateY(-90%);
 }
 #triangle{
