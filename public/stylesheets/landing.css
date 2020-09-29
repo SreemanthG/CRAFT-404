@@ -152,14 +152,15 @@ overflow-x: hidden;
 }
 #rsquare{
   width: 35%;  
-  margin-left: 91.5%;
+  margin-left: 89%;
+  
   margin-top: -153%;
   overflow-x: hidden;
 }
 #wave{
    width:16%;
     margin-bottom: -96.5%;
-    margin-left: 88%;
+    margin-left: 84%;
     transform: translateY(-90%);
 }
 #triangle{
@@ -173,8 +174,9 @@ overflow-x: hidden;
   padding-top: 5%;
 }
 #abt-head-text{
-  font-family: Work Sans Extrabold ;
+  font-family: "Work Sans"  ;
   font-size: 32px;
+  font-weight: bolder;
   margin-left: 14.5%;
   margin-top: -6.3% ;
   
@@ -308,7 +310,7 @@ margin-bottom: -12%;
     padding-top: 5%;
   }
   #abt-head-text{
-    font-family: Work Sans Extrabold ;
+    font-family: "Work Sans"  ;
     font-size: 50px;
     padding-left: 7.5%;
     margin-top: -6.3% ;
