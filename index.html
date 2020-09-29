@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craft 404</title>
-
+    <link rel="icon" href="public/img/crafticon.png" type="image/icon type">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!--FONT AWESOME CDN-->
     <script src="https://kit.fontawesome.com/6b4aeaa9df.js" crossorigin="anonymous"></script>
@@ -64,7 +64,7 @@
     <script src="public/js/clean-blog.js"></script>
     <script src="public/js/javascript.js"></script>
     <script src="public/js/footer.js"></script>
-
+    <script src="public/js/main.js"></script>
   
     <!-- AOS - Script -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -74,6 +74,13 @@
 </head>
 <body  style="background: #012656; overflow-x: hidden">
   <!-- Main page -->
+  <div class="pre-loader">
+    <div class="preloader-wrap">
+      <div class="spinner-grow text-light" style="background-color:#305bc9;" role="status">
+        <span class="sr-only" >Loading...</span>
+      </div>
+    </div>
+  </div>
   <div >
 
 
@@ -758,17 +765,17 @@ for (i = 0; i < acc.length; i++) {
               <p class="leaveMessage">Or leave a message</p>
           </div>
       </div>
-      <form action="mailto:" method="POST" enctype="text/plain">
+      <form action="https://formspree.io/xnqonzvj" method="POST">
           <div class="row">
               <div class="col-lg-6 col-sm-12">
                   <p class="formLabel1">Your name</p>
-                  <input class="formInput" type="text" name="NAME" required>
+                  <input class="formInput" type="text" name="name" required>
                   <p class="formLabel1">Your e-mail address</p>
-                  <input class="formInput" type="email" name="EMAIL" required>
+                  <input class="formInput" type="email" name="email" required>
               </div>
               <div class="col-lg-6 col-sm-12">
                   <p class="formLabel2">Write your message here</p>
-                  <textarea class="messageBox" rows="5" cols="40" name="MESSAGE"></textarea>
+                  <textarea class="messageBox" rows="5" cols="40" name="message"></textarea>
                   <div class="send">
                       <button class="sendbtn" type="submit">Send</button>
                   </div>

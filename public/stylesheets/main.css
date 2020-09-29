@@ -2,3 +2,19 @@ body,html{
     padding: 0;
     margin:0;
 }
+.preloader-wrap{
+    height: 100vh;
+    width: 100vw;
+    background-color: #012656;
+    position: fixed;
+    z-index: 999999999;
+}
+
+.spinner-grow{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
