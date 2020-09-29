@@ -191,8 +191,8 @@ button:focus{
         text-align: center;
     }
     .formInput{
-        align-items: center;
-        text-align: center;
+        /* align-items: center; */
+        /* text-align: center; */
         width:100%;
     }
     .formLabel2{
