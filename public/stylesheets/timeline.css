@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 .timeline-html {
   width: 100%;
   height: 100%;
@@ -301,12 +304,13 @@
 #btn3 {
   background-color: #305bc9;
   width: 30%;
-  height: 40px;
+  /* height: 40px; */
   margin-top: 100px;
   margin-left: 35%;
   /* margin-right: 30%; */
-  border-radius: 20px;
-  padding-bottom: 5px;
+  border-radius: 50px;
+  /* padding-bottom: 5px; */
+  padding: 10px;
   border: none;
   font-size: larger;
 }
@@ -495,9 +499,9 @@
   }
   #btn3{
     font-size: larger;
-    height: 50px;
+    /* height: 50px; */
     width: 60%;
-    border-radius: 25px;
+    border-radius: 50%;
     margin-top: 50px;
     margin-bottom: 50px;
    margin-left: 20%;
