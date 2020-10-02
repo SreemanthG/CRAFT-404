@@ -2,11 +2,39 @@ body{
   font-family: 'Work Sans';
   
 }
-
+#sitting{
+  width: 75%;
+  margin-left: 12.5%;
+  height: 75%;
+  margin-top: 12.5%;
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+.nav-link {
+  font-family: "Work Sans";
+  color: white;
+}
+.gravitas {
+  padding-left: 1.5rem;
+  width: 200px;
+}
+.navbar-brand img {
+  width: 250px;
+}
 @media (min-width: 300px) {
   #stc {
     width: 55px;
     margin-right: -48px;
+  }
+}
+@media (max-width:767px){
+  .navbar-brand img{
+    width: 150px;
+  }
+  .gravitas{
+    display: none;
   }
 }
 
